@@ -8,7 +8,7 @@ CREATE TABLE Employee (
 );
 
 INSERT INTO Employee (employeeID, userID, employee_type, salary)
-VALUES (1, 8, 'manager', 100000),
+VALUES (1, 8, 'manager', 100000), -- ottawa
 (2, 9, 'receptionist', 55000),
 (3, 10, 'receptionist', 56000),
 (4, 11, 'dentist', 90000),
@@ -16,7 +16,7 @@ VALUES (1, 8, 'manager', 100000),
 (6, 13, 'dentist', 91000),
 (7, 14, 'hygienist', 80000),
 (8, 15, 'hygienist', 81000),
-(9, 16, 'manager', 120000),
+(9, 16, 'manager', 120000), -- toronto
 (10, 17, 'receptionist', 59000),
 (11, 18, 'dentist', 95000),
 (12, 19, 'dentist', 96000),
