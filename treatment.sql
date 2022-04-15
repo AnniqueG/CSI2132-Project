@@ -4,11 +4,11 @@ CREATE TABLE treatment (
     treatment_type VARCHAR(50),
     medication VARCHAR(20),
     symptoms VARCHAR(50),
-    comments VARCHAR(50),
+    comms VARCHAR(50),
     PRIMARY KEY (treatmentID),
     FOREIGN KEY (apptProcID) REFERENCES AppointmentProcedure(apptProcID)
 );
-INSERT INTO treatment (treatmentID,apptProcID,treatment_type,medication,symptoms,comments)
+INSERT INTO treatment (treatmentID,apptProcID,treatment_type,medication,symptoms,comms)
 VALUES
 (5100, 0,'Topical','N/A','Gum Tenderness, Receding Gums','Brush and floss regularly.'),
 (5101, 17,'Nonsteroidal Anti-Inflammatory Drug','Ibuprofen','Toothache','Take Ibuprofen as needed during recovery.'),
