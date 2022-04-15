@@ -10,8 +10,8 @@ CREATE TABLE Review (
 );
 
 INSERT INTO Review (reviewID, branchID, professionalism, communication, cleanliness, value)
-VALUES (10, 1, "great", "good", "excellent", "good"),
-(11, 1, "ok", "good", "great", "bad"),
-(12, 1, "excellent", "good", "great", "ok"),
-(13, 2, "exceptional", "ok", "bad", "good"),
-(14, 2, "bad", "good", "ok", "ok");
+VALUES (10, 1, 'great', 'good', 'excellent', 'good'),
+(11, 1, 'ok', 'good', 'great', 'bad'),
+(12, 1, 'excellent', 'good', 'great', 'ok'),
+(13, 2, 'exceptional', 'ok', 'bad', 'good'),
+(14, 2, 'bad', 'good', 'ok', 'ok');
