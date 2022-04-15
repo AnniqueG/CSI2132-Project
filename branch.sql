@@ -6,7 +6,7 @@ CREATE TABLE Branch (
     dentistID INT,
     hygienistID INT,
     receptionistID INT,
-    PRIMARY KEY (rowID),
+    PRIMARY KEY (rowID, branchID),
     FOREIGN KEY (managerID) REFERENCES Employee(employeeID),
     FOREIGN KEY (dentistID) REFERENCES Employee(employeeID),
     FOREIGN KEY (hygienistID) REFERENCES Employee(employeeID),
