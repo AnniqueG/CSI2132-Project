@@ -2,7 +2,7 @@
 CREATE TABLE Patient (
     patientID INT NOT NULL,
     userID INT NOT NULL,
-    insurance INT, -- notsure what insurance is?
+    insurance INT,
     PRIMARY KEY (patientID),
     FOREIGN KEY userID REFERENCES User(userID)
 );
