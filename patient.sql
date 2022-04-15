@@ -4,7 +4,7 @@ CREATE TABLE Patient (
     userID INT NOT NULL,
     insurance INT,
     PRIMARY KEY (patientID),
-    FOREIGN KEY userID REFERENCES User(userID)
+    FOREIGN KEY (userID) REFERENCES Users(userID)
 );
 
 INSERT INTO Patient (patientID, userID, insurance)

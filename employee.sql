@@ -4,7 +4,7 @@ CREATE TABLE Employee (
     employee_type VARCHAR(20) NOT NULL,
     salary INT,
     PRIMARY KEY (employeeID),
-    FOREIGN KEY userID REFERENCES User(userID)
+    FOREIGN KEY (userID) REFERENCES User(userID)
 );
 
 INSERT INTO Employee (employeeID, userID, employee_type, salary)
